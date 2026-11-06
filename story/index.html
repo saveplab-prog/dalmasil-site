@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>숙박부에 사연 남기기 · 달마실</title>
+<meta name="description" content="인스타툰 「윤슬의 숙박부」에 쓸 사연을 받아요. 아무에게도 못 한 이야기를 달마실 프런트의 숙박부에 남겨 주세요. 툰으로 그릴 때는 알아볼 수 있는 내용을 모두 바꿔요.">
+<meta name="theme-color" content="#0b0a0d">
+<link rel="canonical" href="https://dalmasil.com/story/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="달마실">
+<meta property="og:title" content="숙박부에 사연 남기기 · 윤슬의 숙박부">
+<meta property="og:description" content="아무에게도 못 한 이야기를 달마실 프런트의 숙박부에 남겨 주세요. 골라서 인스타툰으로 그려요.">
+<meta property="og:url" content="https://dalmasil.com/story/">
+<meta property="og:image" content="https://dalmasil.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+<style>@font-face{font-family:'Dalmasil Sans';src:url('../fonts/DalmasilSans-Regular.woff2') format('woff2');font-weight:400;font-display:swap}@font-face{font-family:'Dalmasil Sans';src:url('../fonts/DalmasilSans-SemiBold.woff2') format('woff2');font-weight:600;font-display:swap}@font-face{font-family:'Hahmlet';src:url('../fonts/Hahmlet-Light.woff2') format('woff2');font-weight:300;font-display:swap}@font-face{font-family:'Hahmlet';src:url('../fonts/Hahmlet-SemiBold.woff2') format('woff2');font-weight:600;font-display:swap}</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon-192.png" alt="" width="28" height="28">달마실</a></div></header>
+
+<main class="doc"><div class="wrap">
+<a class="back" href="../">‹ 달마실 홈으로</a>
+<article class="sheet register">
+  <p class="kicker">인스타툰 「윤슬의 숙박부」</p>
+  <h1>숙박부에 사연 남기기</h1>
+  <p>달마실 프런트에는 밤마다 손님이 찾아와요. 지배인 윤슬은 숙박부를 펴고 그 이야기를 들어요. 아무에게도 못 한 이야기가 있다면 여기에 남겨 주세요.</p>
+  <p>사연을 골라 툰으로 그릴 때는 이름, 사는 곳, 직업처럼 알아볼 수 있는 내용을 모두 바꿔요. 보내 주신 글을 그대로 올리지 않아요.</p>
+
+  <form class="story" data-endpoint="https://lvjosdgfgpnevshmsnxp.supabase.co/rest/v1/rpc/submit_story" data-key="sb_publishable_WDZZcBAnyjQpsCHHRC-iAg_9__0HsKx" novalidate>
+    <fieldset class="chips">
+      <legend>어떤 이야기예요?</legend>
+      <label><input type="radio" name="category" value="연애" checked>연애</label>
+      <label><input type="radio" name="category" value="결혼·부부">결혼·부부</label>
+      <label><input type="radio" name="category" value="가족">가족</label>
+      <label><input type="radio" name="category" value="돈">돈</label>
+      <label><input type="radio" name="category" value="일·직장">일·직장</label>
+      <label><input type="radio" name="category" value="친구">친구</label>
+      <label><input type="radio" name="category" value="그 밖의 이야기">그 밖의 이야기</label>
+    </fieldset>
+
+    <div class="row">
+      <label class="field"><span>나이대</span>
+        <select name="age">
+          <option value="10대">10대</option>
+          <option value="20대 초반">20대 초반</option>
+          <option value="20대 후반" selected>20대 후반</option>
+          <option value="30대">30대</option>
+          <option value="40대">40대</option>
+          <option value="50대 이상">50대 이상</option>
+          <option value="밝히지 않음">밝히지 않음</option>
+        </select>
+      </label>
+      <label class="field"><span>별명 <small>(선택)</small></span>
+        <input type="text" name="nickname" maxlength="20" autocomplete="off" placeholder="툰에는 쓰지 않아요">
+      </label>
+    </div>
+
+    <label class="field"><span>사연</span>
+      <textarea name="body" rows="12" maxlength="4000" required placeholder="언제, 누구와, 무슨 일이 있었는지 편하게 적어 주세요. 그때 들었던 마음도 함께 적어 주시면 툰으로 옮기기 좋아요."></textarea>
+      <small class="count" aria-live="polite">0 / 4000자 (30자 이상)</small>
+    </label>
+
+    <label class="field"><span>답장받을 이메일 <small>(선택)</small></span>
+      <input type="email" name="email" autocomplete="email" inputmode="email" placeholder="사연을 더 여쭙거나 툰으로 실릴 때만 연락드려요">
+    </label>
+
+    <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="agree"><input type="checkbox" name="age14" required><span>만 14세 이상이에요 <small>(필수)</small></span></label>
+    <label class="agree"><input type="checkbox" name="agree" required><span>사연을 인스타툰 소재로 쓰기 위한 개인정보 수집·이용에 동의해요 <small>(필수)</small></span></label>
+    <details class="notice"><summary>무엇을 받고 언제 지우나요</summary><p>받는 것: 사연 글, 사연의 종류, 나이대, 별명(선택), 이메일(선택). 쓰는 곳: 인스타툰 「윤슬의 숙박부」의 소재를 고르고, 알아볼 수 있는 내용을 바꿔 툰으로 그리는 데만. 이메일은 사연에 대해 다시 여쭙거나 툰으로 실린다고 알려 드릴 때만 써요. 보관: 툰에 쓴 사연은 게시한 날부터 3개월, 쓰지 않은 사연은 받은 날부터 6개월이 지나면 지워요. 동의하지 않을 수 있고, 그러면 사연을 보낼 수 없어요. 보낸 사연을 지우고 싶으면 saveplab@gmail.com으로 알려 주세요. 자세한 내용은 <a href="../privacy/">개인정보 처리방침</a>에 있어요.</p></details>
+
+    <button class="btn primary" type="submit"><span class="dia"></span>숙박부에 남기기<span class="dia"></span></button>
+    <p class="msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <p class="fine">보내 주신 사연이 모두 툰으로 실리지는 않아요. 지금 위험하거나 혼자 견디기 힘든 일이라면 사연보다 먼저 도움을 받아 주세요. 자살예방상담전화 109, 여성긴급전화 1366, 경찰 112는 24시간 받아요.</p>
+</article>
+</div></main>
+
+<footer><div class="wrap"><p>© 2026 세이브포인트랩 · saveplab@gmail.com</p></div></footer>
+
+<script>
+// 숙박부에 사연 남기기: Supabase의 submit_story로 보낸다(공개 열쇠, 표는 읽지 못한다)
+(() => {
+  const form = document.querySelector('form.story');
+  if (!form) return;
+  const msg = form.querySelector('.msg');
+  const btn = form.querySelector('button[type=submit]');
+  const count = form.querySelector('.count');
+  const say = (t, bad) => { msg.textContent = t; msg.classList.toggle('bad', !!bad); };
+  const len = () => form.body.value.trim().length;
+  form.body.addEventListener('input', () => { count.textContent = `${len()} / 4000자 (30자 이상)`; });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (form.website.value) return; // 사람 눈에 안 보이는 칸이 채워졌으면 자동 입력
+    if (len() < 30) { say('사연을 30자 이상 적어 주세요.', true); form.body.focus(); return; }
+    const email = form.email.value.trim();
+    if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { say('이메일 주소를 다시 확인해 주세요. 비워 두어도 괜찮아요.', true); form.email.focus(); return; }
+    if (!form.age14.checked) { say('만 14세 이상만 사연을 보낼 수 있어요.', true); return; }
+    if (!form.agree.checked) { say('사연을 보내려면 개인정보 수집·이용에 동의해 주세요.', true); return; }
+    btn.disabled = true;
+    say('숙박부에 적는 중이에요…');
+    try {
+      const r = await fetch(form.dataset.endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', apikey: form.dataset.key },
+        body: JSON.stringify({ p_nickname: form.nickname.value.trim() || null, p_age_band: form.age.value, p_category: form.category.value, p_body: form.body.value.trim(), p_email: email || null }),
+        signal: AbortSignal.timeout ? AbortSignal.timeout(15000) : undefined,
+      });
+      if (!r.ok) throw new Error(String(r.status));
+      form.reset();
+      count.textContent = '0 / 4000자 (30자 이상)';
+      say('숙박부에 남겼어요. 들려주셔서 고마워요.');
+    } catch {
+      say('지금은 사연을 받지 못했어요. 잠시 뒤에 다시 보내 주세요. 글은 지워지지 않았어요.', true);
+    } finally {
+      btn.disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>
